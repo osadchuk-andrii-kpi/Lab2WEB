@@ -1,0 +1,130 @@
+.blue  { background-color: #cbd7f0; }
+.orange{ background-color: #f9eada; }
+.green { background-color: #eaf1de; }
+.white { background-color: #ffffff; }
+
+.blue, .green, .orange, .white {
+    border: 1px solid black;
+    margin: 1px;
+}
+
+body {
+    padding: 0;
+    margin: 1vh 1vw;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#page {
+    min-height: 97vh;
+    min-width: 1250px;
+}
+
+.content_div { padding: 5px; }
+
+#block1, #block6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+#block1 h1, #block6 h2, #block6 p { margin: 0; }
+
+#x, #y {
+    padding: 0 1em;
+    margin: 1em;
+    width: fit-content;
+    align-content: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#contentWrap {
+    display: flex;
+    gap: 2px;
+    align-items: stretch;  
+}
+
+#leftAndBottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+#upperRows {
+    display: flex;
+    gap: 2px;
+    align-items: stretch; 
+}
+
+#leftStack {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 16em;
+    flex: 0 0 16em;
+    box-sizing: border-box;
+}
+
+#block3 {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0.5em;   
+    border-radius: 8px;
+    background: #ffffff;
+    font-size: 1.3rem;
+    line-height: 1.35;
+}
+
+#block4.sidebar {
+    flex: 0 0 16em;
+    width: 16em;
+    box-sizing: border-box;
+}
+
+#block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+#block2 ul { padding-left: 1em; text-align: left; }
+#block2 li { margin-bottom: 3vh; }
+
+#block5 h2 { text-align: center; margin-bottom: 0.5em; }
+#block5 h4 { padding-left: 1em; text-align: left; }
+#block5 ol { padding-left: 1em; text-align: left; list-style-position: inside; }
+#block5 li { margin-bottom: 3vh; margin-top: flex;}
+
+#block4 li { margin-bottom: 0.7vh;}
+
+#block3-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;            
+    margin-bottom: 1.7em;
+}
+#block3 #logo { height: auto; max-width: 70%; }
+#block3-title { margin: 0; font-size: 1.8rem; }
+#block3 p { margin-bottom: 1em; text-align: justify; }
+#block3 ol { padding-left: 1.2em; margin: 0.5em 0; }
+#block3 li { margin-bottom: 0.6em; }
+#block3 img#manufactures {
+    display: block;
+    align-self: center;
+    margin-top: auto; 
+    margin-bottom: 0;
+    width: 550px;
+    height: 95px;
+}
+
+.teams_image {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
